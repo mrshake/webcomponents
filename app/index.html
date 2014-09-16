@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Web Components Stuff</title>
+</head>
+
+<script src="../node_modules/jquery/dist/jquery.js"></script>
+<link rel="import" href="../bower_components/google-map/google-map.html" />
+<link rel="stylesheet" type="text/css" href="css/main.css">
+
+
+<body>
+
+<template id="mapMarker">
+  <google-map latitude="40.548160" longitude="-89.334485" zoom="6">
+	<google-map-marker latitude="40.548160" longitude="-89.334485" title="home!">
+	</google-map-marker>
+  </google-map>
+</template>
+
+<div id="googlemaps">
+	<google-map latitude="40.548160" longitude="-89.334485" zoom="6">
+		<google-map-marker latitude="40.548160" longitude="-89.334485" title="home!">
+		</google-map-marker>
+	</google-map>
+</div>
+<div id="customelement"></div>
+
+</body>
+
+<script src="js/main.js"></script>
+
+</html>

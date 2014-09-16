@@ -1,0 +1,7 @@
+@CHARSET "ISO-8859-1";
+
+#googlemaps google-map {
+	display: block;
+	width: 900px;
+	height: 500px;
+}
